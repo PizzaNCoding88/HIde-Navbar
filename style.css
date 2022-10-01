@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: rgb(102, 94, 94);
+}
+
+.navbar{
+    position: fixed;
+    background-color: rgb(72, 68, 134);
+    top: 0;
+    bottom: 0;
+    right: 90%;
+    left: 0;
+    transition: all 0.9s linear;
+}
+
+.navbarHide{
+    position: fixed;
+    top: 0;   
+    left: 0;
+    bottom: 0;
+    transition: all 0.9s linear;
+}
+
+.menu-icon{
+    height: 50px;
+    width: 50px;
+}
+
+.button{
+    position: fixed;
+    right: 85%;
+    top: 15px;   
+    height: 50px;
+    width: 60px;
+    background-color: transparent;
+    border: none;
+}
+
+.links{
+    margin-top: 25px;
+    margin-left: 10px;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 50px;
+    font-style: italic;
+}
+
+.linkHide{
+    display: none;
+    transition: all 0.9sec linear;
+}
+
+.menu-icon:{
+    left: 10px
+}
+
+.hidden{
+    display: none;
+}
